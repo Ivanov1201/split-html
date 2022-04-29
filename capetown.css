@@ -1,0 +1,95 @@
+@font-face {font-family: 'arial';src: url('fonts/arial_1-webfont.woff') format('woff2'), url('fonts/arial_1-webfont.woff') format('woff'); font-weight: normal;font-style: normal;}
+		
+body{padding: 0;margin: 0; font-family: 'arial' !important;}
+
+.cv-wrapper { display: flex; flex-direction: column; align-items: center;background: #ccc;}
+.page-wrapper{ width: 794px;/* transform: scale(0.973552); */ transform-origin: 50% 0px 0px; margin: 40px 0px;}
+.outer-page{ box-shadow: 1px 2px 20px rgba(0,0,0,.1); display: flex; width: 100%; min-height: 1025px;}
+
+.left-blog{ background:#fff; padding:25px 22px; width:65%;}
+.right-blog{ padding:25px 25px; width:35%; }
+
+.profile_img {margin:0px auto 30px; width: 80px; height: 80px; border-radius: 50%;}
+.profile_img img{width: 100%; height: 100%; object-fit: cover; border-radius: 50%;}
+
+.skill_info{display:flex;flex-wrap: wrap;} 
+.skill_txt{color:#fff;vertical-align:middle; width:50%; margin-bottom:3px;}
+.skill-icons{ display: flex; justify-content: flex-end; width: 100%;  flex: 1;}	
+.skill-icons div { padding-left:5px; text-align:right; display: block;}
+
+.skill_txt.svg_icon{padding-top:5px;display:block;}
+.line-border{background: #4a659b; width:100%; height:2px; margin:5px 0px 10px; display:block;}
+.line-border-ref{background: #e7e7e7; width:100%; height:1px; margin:5px 0px 10px; display:block;}
+
+/* left-section */
+.user_name{color: #11357C; font-size:24px; font-weight:bold;letter-spacing:0.8px;line-height:normal; margin-bottom:5px;}
+.sub_title{color: #adadad; margin-bottom:20px;}
+.summery_text{font-size:9px; color: #333333;border-bottom:1px solid #e7e7e7; padding-bottom:10px; margin-bottom:20px;}
+.left-blog .cm_title{color: #11357C;}
+.left-blog .main_spacing .line{background:#11357C;}
+
+.left-blog .date_tm{color:#333; position: relative;}
+.left-blog .date_tm .line{ width:20px; border-right:1.5px solid #e7e7e7; height:15px; margin:5px 0px 5px 0px;}
+.left-blog .dot-section{width:5%; display:inline-block; text-align:center;}
+.left-blog .dot-section .line{width:20px; height:75%; border-right:1.5px solid #e7e7e7;  margin:5px 0px 0px -9px;}
+.as_a{color: #adadad;}
+.desc_content ul{padding:0px 0px 0px 19px; color: #333333;}
+.desc_content ul li{font-size:9px;}
+.desc_content{margin-left:5px;flex: 1;}
+
+.detail_block .entries_spacing{display: flex;}
+.history_position{position: relative;}
+
+.Education_position .date_tm .line{height:10px;}
+.Education_position .dot-section .line{height:20px;}
+.Courses_position .dot-section .line{height:10px;}
+
+.overall_lavels{display: flex;flex-wrap: wrap;}
+.lavel_data .level_title, .lavel_data .lavel_data_icon{width:50%;}
+.lavel_data .lavel_data_icon{display: flex;}
+.lavel_data .lavel_data_icon div{padding-left: 5px; text-align:right;}
+.lavel_data{width:47%; }
+.lavel_data.even_line { border-right:1px solid #e7e7e7;}
+.lavel_data.odd_line{margin-left:20px;}
+.lavel_data .lavel_text{width:45%; text-align:right;}
+
+table td{vertical-align:top;padding-right:10px;}
+table .date_tm .lines{width:25px;border:10px solid red; background:#e7e7e7; height:5px; margin:0px;}
+.left-blog .info-subtext{color:#333; margin-top:5px; margin-bottom:0px;}
+
+.set-lines {display: flex;align-items: center;margin-bottom: 5px; justify-content: space-between;}
+.set-lines .line-top{width:90%; background:#e7e7e7; height:2px;}
+.set-lines .qoute{width:50px; height:30px; }
+
+
+/* common-css-default */
+.detail_block{margin-bottom:20px;}
+.cm_title{color:#fff; /* font-size:11px; */ line-height: 13px; margin-bottom:0px; font-weight:bold; letter-spacing:0.8px}
+.main_spacing .line{width:30px; height:2px; background:#fff; display:inline-block;}
+.info-subtext{/* font-size:9px; */ width: 100%; color:#fff; margin-bottom:8px; line-height:12px; letter-spacing:0.5px;}
+.info-subtext .svg_icon{width:20px; float: left;}
+
+.detail_block .refrence_lavels .entries_spacing{display: block;}
+
+
+
+/*  */
+.section_spacing{margin-bottom:20px;}
+.entries_text{font-size:9px;}
+.main_text{font-size:11px;}
+.entries_spacing{margin-bottom:10px;}
+.main_spacing{margin-bottom:13px; line-height: 1;}
+.subFont_color{}
+.template_color{background:#11357C;}
+
+
+.new-page-wrapper.a4 {
+    height: 1123px;
+    width: 794px;
+    background: white;
+    margin: 40px 0px;
+}
+
+.new-page-wrapper.a4 .outer-page {
+    height: 100%;
+}
